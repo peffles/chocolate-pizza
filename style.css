@@ -1,0 +1,65 @@
+header {
+  border-top: 5px solid black;
+  padding-top: 40px;
+}
+h1 {
+  display: inline;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-style: italic;
+  margin: 5px;
+}
+h2 {
+  display: block;
+}
+h3 {
+  font-size: 15px;
+  font-family: 'Advent Pro', sans-serif;
+}
+.icons {
+  display: inline;
+  float: right;
+}
+.print {
+  display: inline;
+  float: right;
+  word-spacing: 10px;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+
+
+nav {
+
+}
+main {
+
+}
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+a {
+
+}
+a:visited {
+
+}
+a:hover {
+
+}
+footer {
+
+}
+section {
+  background-image: url("assets/choco-pizza.png");
+  background-size: cover;
+  padding-top: 800px;
+  padding-bottom: 100px; 
+
+}
+span {
+
+}

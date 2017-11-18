@@ -123,11 +123,14 @@ li {
   padding:15px 24px;
   text-decoration: none;
   float:right;
-  margin-bottom: 50px;
+  position: relative;
+  bottom: 65px;
 }
+
 .myButton:hover {
   background-color:#eb675e ;
 }
+
 .myButton:active {
   position:relative;
   top:1px;
@@ -167,4 +170,22 @@ hr.footerline:after {
   font-family: Georgia;
   color: gray;
   font-size: 10px;
+}
+
+h4 {
+display: inline;
+float: left;
+position: relative;
+left: 81px;
+bottom: 80px;
+}
+
+.van {
+  display: block;
+}
+
+.van1 {
+  position: relative;
+  right: 45px;
+  bottom: 45px;
 }

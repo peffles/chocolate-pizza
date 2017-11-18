@@ -1,3 +1,9 @@
+nav {
+  border-bottom: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+}
 .pizza {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -17,7 +23,7 @@ h1 {
 }
 
 .h3 {
-  font-size: 15px;
+  font-size: 10px;
   font-family: 'Advent Pro', sans-serif;
   padding-bottom: 30px;
   margin: -10;
@@ -41,6 +47,12 @@ h1 {
   float: right;
   word-spacing: 10px;
   font-family: 'Advent Pro', sans-serif;
+  position: relative;
+  bottom: 10;
+}
+
+.printicon {
+  padding-right: 10px;
 }
 
 #rss {

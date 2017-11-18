@@ -1,5 +1,4 @@
 header {
-  border-top: 5px solid black;
   padding-top: 40px;
 }
 h1 {
@@ -31,39 +30,59 @@ h3 {
 #rss {
   margin-left: 9px;
 }
-
-
-nav {
-
-}
-main {
-
-}
 body {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 35px;
   margin-bottom: 35px;
 }
-a {
 
-}
-a:visited {
-
-}
-a:hover {
-
-}
-footer {
-
-}
-section {
+/*.sectionpizza {
   background-image: url("assets/choco-pizza.png");
   background-size: cover;
   padding-top: 500px;
   background-size: contain;
   background-repeat: no-repeat;
-}
-span {
+}*/
 
+.sectionpizza {
+  background-image: url(assets/choco-pizza.png);
+  background-position: center;
+  margin-bottom: 8px;
+  padding: 30%;
+  background-size:cover;
+  position: relative;
+}
+main {
+  background-image: url(assets/list-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.list{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 5% 0;
+  margin-left: calc((100% / 3) / 3);
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  font-size: 20px;
+  max-height: inherit;
+  position: relative;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Neucha', cursive;
+  line-height: 2em;
+}
+
+.border {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
 }

@@ -10,9 +10,8 @@
 h1 {
   display: inline;
   font-family: 'Pacifico', cursive;
-  font-size: 30px;
+  font-size: 35px;
   font-style: italic;
-  margin: 5px;
 }
 
 h2 {
@@ -117,7 +116,7 @@ li {
   font-family:Arial;
   font-size:20px;
   padding:15px 24px;
-  text-decoration:none;
+  text-decoration: none;
   float:right;
   margin-bottom: 50px;
 }

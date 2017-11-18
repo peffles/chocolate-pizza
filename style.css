@@ -4,7 +4,8 @@
 }
 
 .logo {
-  display: inline;
+  bottom: -12px;
+  position: relative;
 }
 
 h1 {

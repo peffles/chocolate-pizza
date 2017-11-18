@@ -1,5 +1,5 @@
 .pizza {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
 }
 
@@ -10,9 +10,8 @@
 
 h1 {
   display: inline;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Yellowtail', cursive;
   font-size: 35px;
-  font-style: italic;
 }
 
 h2 {

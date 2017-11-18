@@ -1,35 +1,33 @@
 .pizza {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
+  margin-bottom: 0%;
+
 }
 
 .logo {
-  display: inline;
+  bottom: -16px;
+  position: relative;
 }
 
 h1 {
   display: inline;
-  font-family: 'Pacifico', cursive;
-  font-size: 30px;
-  font-style: italic;
-  margin: 5px;
-}
-
-h2 {
-  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
 }
 
 .h3 {
-  font-size: 15px;
+  font-size: 10px;
   font-family: 'Advent Pro', sans-serif;
   padding-bottom: 30px;
   margin: -10;
-  padding-left: 65px;
+  padding-left: 60px;
 }
 
 .posted {
   font-size: 15px;
   font-family: 'Advent Pro', sans-serif;
+  margin-top: 0%;
 }
 
 .icons {
@@ -43,6 +41,12 @@ h2 {
   float: right;
   word-spacing: 10px;
   font-family: 'Advent Pro', sans-serif;
+  position: relative;
+  bottom: 10;
+}
+
+.printicon {
+  padding-right: 10px;
 }
 
 #rss {
@@ -117,13 +121,16 @@ li {
   font-family:Arial;
   font-size:20px;
   padding:15px 24px;
-  text-decoration:none;
+  text-decoration: none;
   float:right;
-  margin-bottom: 50px;
+  position: relative;
+  bottom: 65px;
 }
+
 .myButton:hover {
   background-color:#eb675e ;
 }
+
 .myButton:active {
   position:relative;
   top:1px;
@@ -163,4 +170,22 @@ hr.footerline:after {
   font-family: Georgia;
   color: gray;
   font-size: 10px;
+}
+
+h4 {
+display: inline;
+float: left;
+position: relative;
+left: 81px;
+bottom: 80px;
+}
+
+.van {
+  display: block;
+}
+
+.van1 {
+  position: relative;
+  right: 45px;
+  bottom: 45px;
 }
